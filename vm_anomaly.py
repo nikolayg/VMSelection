@@ -75,7 +75,7 @@ def runVMAnomaly():
     [0.38,  0.99, 0.65, 190],
     [0.40,  0.99, 0.60, 200],
     [0.2,  0.2,  0.2,  100],
-    [0.5,  0.2,  0.2,  100]]
+    [0.5,  0.2,  0.2,  101]]
   
   for record in records:
     modelInput = dict(zip(headers, [None] + record ))
